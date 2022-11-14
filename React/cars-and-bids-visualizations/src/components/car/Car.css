@@ -1,0 +1,42 @@
+.car {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--grey);
+    color: white;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.car-selected, .car:hover {
+    background-color: var(--green);
+    color: var(--dark);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+    width: 100%;
+}
+
+.add {
+    width: 30px;
+}
+
+h3, h5, p {
+    margin: 0px;
+}
+
+.car .title-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.car .title-bar h3 {
+    margin-right: auto;
+}

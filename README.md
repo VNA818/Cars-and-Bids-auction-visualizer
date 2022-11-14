@@ -1,1 +1,0 @@
-# Cars-and-Bids-auction-visualizer
